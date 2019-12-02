@@ -61,7 +61,7 @@ class DeepSearcher :
         print(">>> shape of data {}".format(self.data.shape))        
         print(">>> loaded took {} ms".format(elapsed))        
         
-    def getFeature(self, input_image):
+    def get_feature(self, input_image):
         """
         input_image is a filename or a numpy array
         """
